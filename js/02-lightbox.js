@@ -15,7 +15,6 @@ const imagesBlock = galleryItems.map(({ preview, original, description }) => {
 
 galleryImg.insertAdjacentHTML("beforeend", imagesBlock);
 
-let gallery;
 galleryImg.addEventListener('click', handleClick);
 
 function handleClick (event){
